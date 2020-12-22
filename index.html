@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="icon" href="content/images/ic_launcher_round.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <meta charset="utf-8">
+    <meta name="referrer" content="origin">
+    <title>Mind Flying</title>
+    <script src="script/jquery3.4.1.js"></script>
+    <script type="text/javascript" src="script/jquery.scrollTo.js"></script>
+    <script src="script/service.js"></script>
+
+    <style>
+      @import url(content/styles/service.css);
+    </style>
+  </head>
+  <body>
+      <img id="img-logo" src="content/images/ic_launcher_round.png" class="img-logo"/>
+      <ul id="navigation-id" class="navigation">
+        <li>
+          Home
+        </li>
+        <li>
+          About
+        </li>
+        <li>
+          Business Types
+        </li>
+        <li>
+          Services
+        </li>
+        <li>
+          Testimonials
+        </li>
+        <li>
+          Contact Us
+        </li>
+      </ul>
+      <div id="frame-b" class="frame-b">
+        <img id="img-background" src="content/images/office-3309862_1920.jpg"  class="img-background"/>
+        <span class="business-solution">Business Solutions</span>
+        <p class="mobile">Mobile: +374 94 04 55 59</p>
+        <p class="invest_your_time_text">Invest your time and efforts on running your business.<br> Leave the services to us.</p>
+      </div>
+      <p class="about-us" id="about-us">About Us</p>
+      <p class="who-we-are">Who We Are</p>
+      <video class="video-work" width="500"   controls>
+        <source src="content/videos/work.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+      <p class="services-description">I have experience work on android applications more 4 year.<br>
+         I have created some complex android applications. <br>
+         I&apos;m focus on reliable and clean work and that qualification matches client requirements.<br>
+         Our services contain web and android development.<br>
+         We are increasing our professionalism every day.<br>
+         We are proud of our products and solutions.<br>
+         We should bring your idea to reality.<br>
+         We are also good choice for your StartUp ideas.
+       </p>
+       <p id="business-types" class="business-types">Business Types</p>
+       <p id="description-business-type" class="description-business-type">Our business contributing community with big experience control human knowns <br>types development very good apps web and mobile it contains social,<br> educational and real projects.<br>
+         In real projects that geo-positioning, <br>small games, java tools, a musical for example piano and so on.</p>
+       <img class="business-icon" src="content/images/business.png" />
+       <p id="services" class="services">Services</p>
+       <p class="what-we-do">What We Do</p>
+
+       <div class="card-item margin-left">
+          <h2 class="card-item-caption">Get With Java</h2>
+
+          <p class="card-description">A Good Approach For Application And Multi-Platform Provides</p>
+
+          <div class="card-divider">
+            <p class="card-type">Java In Action</p>
+          </div>
+        </div>
+
+        <div class="card-item">
+          <h2 class="card-item-caption">Start Android Or Kotlin</h2>
+
+          <p class="card-description">A Good Approach For Application Written With Android Or Kotlin</p>
+
+          <div class="card-divider">
+            <p class="card-type">Android</p>
+          </div>
+        </div>
+
+        <div class="card-item">
+          <h2 class="card-item-caption">Get Started With Web</h2>
+
+          <p class="card-description">Technologies it is Javascript, CSS, HTML, Server-Side Languages<br></p>
+          <div class="card-divider">
+            <p class="card-type">Architecture</p>
+          </div>
+        </div>
+        <p id="testimonials" class="testimonials">Testimonials</Testimonials>
+        <p class="what-clients-say">What Our Clients Say?</p>
+        <div class="card-item-squre">
+            <p class="feedback">"he is a good android developer and responsive, Has good communication skills and his understanding for the request is very good."</p>
+            <p class="name-client">Yousef A.</p>
+        </div>
+        <div class="card-item-squre">
+            <p class="feedback">"Hard working with a clear understanding of the objectives."</p>
+            <p class="name-client margin-top">Siddharth G.</p>
+        </div>
+        <div class="card-item-squre">
+            <p class="feedback">"He is very happy"</p>
+            <p class="name-client margin-top">Didier Guillonnet</p>
+        </div>
+        <div class="card-item-squre">
+            <p class="feedback">"he works very hard, he does the work with his heart and he has many fine qualities too"</p>
+            <p class="name-client margin-top">Elyssee</p>
+        </div>
+        <p id="contact-us" class="contact-us">Contact Us</p>
+
+        <div class="contacts">
+            <p class="get-in-touch">Get In Touch</p>
+            <p class="contact-us-trip">Contact Us</p>
+            <p class="w-h-h-a-p">We are here to help with any project.</p>
+            <i class="material-icons">phone</i>
+            <p class="phone-number">Phone Numbers​</p>
+            <p class="mobile-number">Mobile: +37494045559</p>
+
+            <i class="material-icons maile">maile</i>
+            <p class="email">Email​</p>
+            <p class="email-text"><a class="maile-anchor" id="maile-anchor" href="mailto:markosyansaro@gmail.com">markosyansaro@gmail.com</a></p>
+
+            <i class="material-icons room">room</i>
+            <p class="address">Address</p>
+            <p class="address-text">Baghramyan 4</p>
+        </div>
+        <div class="card-item-ask-question">
+            <p class="have-a-question">Have A Question?</p>
+            <p class="ask-as">Ask Us</p>
+
+            <form id="form-ask-question" name="formAskQuestion" method="Post">
+                <label class="name-feild" for="name">Name<i class="material-icons asterisk">*</i></label>
+                <input class="inputs" type="text" id="name" name="Name" />
+
+                <div class="inline-feild">
+                  <label class="phone-feild" for="phone-feild">Phone No.<i class="material-icons asterisk">*</i></label>
+                  <input class="inputs-phone" type="text" id="phone-feild" name="phoneNumber" />
+                </div>
+                <div class="inline-feild">
+                    <label class="email-feild" for="email-feild">Email.<i class="material-icons asterisk">*</i></label>
+                    <input class="inputs-email" type="text" id="email-feild" name="email" />
+                </div>
+
+                <label class="message-feild" for="message-feild">Message<i class="material-icons asterisk">*</i></label>
+                <textarea class="message-area" id="message-feild" rows="6" name="message"></textarea>
+                <button class="btn-send" type="button" id="send">Send</button>
+            </form>
+        </div>
+
+        <div class="copyright">&copy; 2020 Mind Flight Technologies</div>
+  </body>
+</html>
