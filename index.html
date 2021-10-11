@@ -11,7 +11,8 @@
     <script type="text/javascript" src="script/jquery.scrollTo.js"></script>
     <script src="script/service.js"></script>
 
-    <style>
+    <script src="node_modules/scroll-js/dist/scroll.js"></script>
+    <style> 
       @import url(content/styles/service.css);
     </style>
   </head>
@@ -132,8 +133,8 @@
         <div class="card-item-ask-question">
             <p class="have-a-question">Have A Question?</p>
             <p class="ask-as">Ask Us</p>
-
-            <form id="form-ask-question" name="formAskQuestion" method="Post">
+            
+            <form id="form-ask-question" name="formAskQuestion" method="Post" action="send">
                 <label class="name-feild" for="name">Name<i class="material-icons asterisk">*</i></label>
                 <input class="inputs" type="text" id="name" name="Name" />
 
@@ -148,7 +149,7 @@
 
                 <label class="message-feild" for="message-feild">Message<i class="material-icons asterisk">*</i></label>
                 <textarea class="message-area" id="message-feild" rows="6" name="message"></textarea>
-                <button class="btn-send" type="button" id="send">Send</button>
+                <button class="btn-send" type="submit" id="send">Send</button>
             </form>
         </div>
 
