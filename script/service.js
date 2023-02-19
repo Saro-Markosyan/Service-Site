@@ -6,6 +6,20 @@ $(function () {
 	scrollToElements();
 
 	function scrollToElements () {
+			/*if (post == "hometown") {
+			//$.scrollTo("bout-us");
+			} else if (post == "about") {
+				$.scrollTo("#about-us");
+			} else if(i == 2) {
+				$.scrollTo("#business-types");
+			} else if(i == 3) {
+				$.scrollTo("#services");
+			} else if (i == 4) {
+				$.scrollTo("#testimonials");
+			} else {
+				$.scrollTo("#contact-us");
+			}*/
+
 			$("li").each(function(i, obj) {
 
 					$(obj).click(function() {
@@ -29,4 +43,5 @@ $(function () {
    }
 
 	 //var tabButtonSend = document.getElementById("#send");
+
 });
