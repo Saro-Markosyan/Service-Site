@@ -60,14 +60,14 @@ body{
   position: absolute;
   top: 250px;
   left: 50px;
-  color: #D81B60;
+  color: #00ff00;
   font-size: 20px;
   font-weight: bold;
 }
 
 .mobile{
   position: absolute;
-  color: #3BDBBC;
+  color: #fff;
   font-size: 20px;
   font-weight: bold;
   top: 400px;
@@ -81,7 +81,7 @@ body{
   line-height: 25px;
   font-size: 20px;
   font-weight: bold;
-  color:  #3e5c9a;
+  color:  #fff;
 
 }
 
@@ -90,7 +90,7 @@ body{
   margin-top: 20px;
   font-size: 27px;
   font-weight: bold;
-  color: #e05414;
+  color: #3d5c5c;
 
 }
 
@@ -119,12 +119,12 @@ body{
   margin-top: 50px;
   text-align: center;
   font-size: 39px;
-  color: #e05414;
+  color: #3d5c5c;
 }
 
 .description-business-type {
   display: inline-block;
-  margin-left: 150px;
+  margin-left: 70px;
   margin-top: 60px;
   padding-bottom: 40px;
   line-height: 30px;
@@ -132,14 +132,14 @@ body{
 
 .business-icon{
   margin-left: 300px;
-  margin-bottom: 110px;
+  margin-bottom: 150px;
   vertical-align: middle;
 }
 
 .services{
   text-align: center;
   font-size: 39px;
-  color: #e05414;
+  color: #3d5c5c;
   margin-top: 50px;
 }
 
@@ -190,7 +190,7 @@ body{
   text-align: center;
   margin-top: 50px;
   font-size: 39px;
-  color: #e05414;
+  color: #3d5c5c;
 }
 
 .what-clients-say {
@@ -233,7 +233,7 @@ body{
   text-align: center;
   margin-top: 50px;
   font-size: 39px;
-  color: #e05414;
+  color: #3d5c5c;
 }
 
 .contacts{
@@ -245,7 +245,7 @@ body{
   margin-top: 100px;
   margin-bottom: 10px;
   font-size: 30px;
-  color: #e05414;
+  color: #3d5c5c;
 }
 
 .contact-us-trip{
@@ -338,7 +338,7 @@ body{
 
 .have-a-question{
   font-size: 16px;
-  color: #e05414;
+  color: #3d5c5c;
   text-align: center;
 }
 
@@ -445,7 +445,7 @@ body{
   }
 
   .business-icon{
-    margin-left: 90px;
+    margin-left: 70px;
     margin-bottom: 110px;
     vertical-align: middle;
   }
@@ -456,6 +456,14 @@ body{
     line-height: 30px;
     margin-left: 70px;
     margin-top: 70px;
+  }
+
+  .An-Or-Ktl {
+    margin-left: 200px;
+  }
+
+  .Web {
+    margin-left: 200px;
   }
 }
 
