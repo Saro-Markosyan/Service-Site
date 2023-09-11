@@ -147,6 +147,36 @@ body{
   text-align: center;
   font-size: 27px;
   margin-top: 15px;
+  margin-bottom: 160px;
+}
+
+.services-container {
+  text-align: center;
+}
+
+.java-logo, .android-logo, .web-logo {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+
+.java-logo {
+  position: relative;
+  left: 210px;
+  bottom: 160px;
+  margin-top: 50px;
+}
+
+.android-logo {
+  position: relative;
+  left: 205px;
+  bottom: 160px;
+}
+
+.web-logo {
+  position: relative;
+  right: 410px;
+  top: 160px;
 }
 
 .card-item {
@@ -154,19 +184,20 @@ body{
   width: 300px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  margin-left: 20px;
   margin-top: 30px;
   text-align: center;
   border: 1px solid #d3d3d3;
 }
 
+.center-botm {
+  display: block;
+  margin-left: 520px;
+  margin-top: 150px;
+}
+
 .card-description{
   padding-left: 10px;
   padding-right: 10px;
-}
-
-.margin-left{
-  margin-left: 200px;
 }
 
 .card-divider {
@@ -191,6 +222,11 @@ body{
   margin-top: 50px;
   font-size: 39px;
   color: #3d5c5c;
+}
+
+
+.testimonials-container {
+  text-align: center;
 }
 
 .what-clients-say {
@@ -438,10 +474,14 @@ body{
     height: 500px;
     box-shadow: 20px 20px 20px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    margin-left: 210px;
+    margin-left: 40px;
     margin-top: 100px;
     vertical-align: top;
     border: 1px solid #d3d3d3;
+  }
+
+  .contacts {
+    margin-left: 60px;
   }
 
   .business-icon{
@@ -458,17 +498,28 @@ body{
     margin-top: 70px;
   }
 
+  .and-logo-less-360 {
+    display: block;
+    position: relative;
+    left: 395px;
+    top: 20px;
+  }
+
   .An-Or-Ktl {
-    margin-left: 200px;
+    margin-left: 210px;
   }
 
   .Web {
-    margin-left: 200px;
+    margin-left: 295px;
+  }
+
+  .web-logo-less-1300 {
+    right: 60px;
   }
 }
 
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 502px) {
   .img-logo {
       margin-bottom: 10px;
    }
@@ -560,7 +611,12 @@ body{
 
 
   .card-3{
-    margin-left: 450px;
+    margin-left: 30px;
+  }
+
+  .web-logo-less-500 {
+    left: 30px;
+    right: 0px;
   }
 
   .card-item-squre-first {
